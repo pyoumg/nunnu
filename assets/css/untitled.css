@@ -1,0 +1,140 @@
+img, svg {
+  width: auto;
+  height: auto;
+}
+
+a#topBtn {
+  position: fixed;
+  right: 2%;
+  bottom: 5px;
+  display: none;
+  z-index: 9999;
+  color: #A52A2A;
+}
+
+#custom-logo {
+  max-width: 200px;
+}
+
+.navbar-brand.logo {
+  height: 80%;
+  width: 30%;
+}
+
+.gradient {
+  background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #F08080;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #0ea0ff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #6091ef;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Nanum Gothic",sans-serif;
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.explanation {
+  color: #F08080;
+}
+
+body {
+  background-image: linear-gradient(-45deg, #FFdede 0%, #FFF 100%);
+}
+
+.container.white {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #404040;
+}
+
+li {
+  list-style: none;
+}
+
+/* BODY */
+
+.main {
+  margin: 30px;
+}
+
+.main > li {
+  position: relative;
+  float: left;
+  width: 210px;
+  height: 30px;
+  box-sizing: border-box;
+  line-height: 30px;
+  text-align: center;
+  background: #ccc;
+}
+
+.main > li a {
+  display: block;
+  transition: all 0.3s;
+}
+
+.main > li a:hover {
+  background: #6cbeb6;
+  color: #fff;
+}
+
+.nav-item .hide {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: Nanum Gothic,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+.comic {
+  display: block;
+  max-height: 12000px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+i {
+  color: white;
+}
+
+.navbar {
+  min-height: 120px;
+}
+
